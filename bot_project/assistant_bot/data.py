@@ -1,3 +1,4 @@
-from assistant_bot.addressbook_classes import AddressBook
+from assistant_bot.storage import load_data
 
-book = AddressBook()
+
+book = load_data()
